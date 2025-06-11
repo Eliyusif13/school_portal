@@ -1,7 +1,7 @@
-package com.sadiqov.entity.school_portal.controller;
-import com.sadiqov.entity.school_portal.dto.ClassroomDTO;
-import com.sadiqov.entity.school_portal.entity.Classroom;
-import com.sadiqov.entity.school_portal.servise.ClassroomService;
+package com.sadiqov.cocusofttasks.school_portal.controller;
+import com.sadiqov.cocusofttasks.school_portal.dto.ClassroomDTO;
+import com.sadiqov.cocusofttasks.school_portal.entity.Classroom;
+import com.sadiqov.cocusofttasks.school_portal.servise.ClassroomService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

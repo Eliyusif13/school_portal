@@ -1,4 +1,4 @@
-package com.sadiqov.entity.school_portal;
+package com.sadiqov.cocusofttasks.school_portal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

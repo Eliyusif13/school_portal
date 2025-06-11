@@ -1,4 +1,4 @@
-package com.sadiqov.entity.school_portal.dto;
+package com.sadiqov.cocusofttasks.school_portal.dto;
 
 
 import lombok.AccessLevel;

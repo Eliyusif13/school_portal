@@ -1,4 +1,4 @@
-package com.sadiqov.entity.school_portal.entity;
+package com.sadiqov.cocusofttasks.school_portal.entity;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Getter;

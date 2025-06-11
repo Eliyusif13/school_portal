@@ -1,4 +1,4 @@
-package com.sadiqov.entity.school_portal.exception;
+package com.sadiqov.cocusofttasks.school_portal.exception;
 
 
 import org.springframework.http.HttpStatus;

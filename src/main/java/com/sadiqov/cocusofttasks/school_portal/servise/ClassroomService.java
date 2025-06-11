@@ -1,10 +1,10 @@
-package com.sadiqov.entity.school_portal.servise;
+package com.sadiqov.cocusofttasks.school_portal.servise;
 
 
-import com.sadiqov.entity.school_portal.dto.ClassroomDTO;
-import com.sadiqov.entity.school_portal.entity.*;
-import com.sadiqov.entity.school_portal.exception.*;
-import com.sadiqov.entity.school_portal.repository.*;
+import com.sadiqov.cocusofttasks.school_portal.dto.ClassroomDTO;
+import com.sadiqov.cocusofttasks.school_portal.entity.*;
+import com.sadiqov.cocusofttasks.school_portal.exception.*;
+import com.sadiqov.cocusofttasks.school_portal.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

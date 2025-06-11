@@ -1,11 +1,11 @@
-package com.sadiqov.entity.school_portal.servise;
+package com.sadiqov.cocusofttasks.school_portal.servise;
 
-import com.sadiqov.entity.school_portal.dto.StudentDTO;
-import com.sadiqov.entity.school_portal.entity.Classroom;
-import com.sadiqov.entity.school_portal.entity.Student;
-import com.sadiqov.entity.school_portal.exception.ResourceNotFoundException;
-import com.sadiqov.entity.school_portal.repository.ClassroomRepository;
-import com.sadiqov.entity.school_portal.repository.StudentRepository;
+import com.sadiqov.cocusofttasks.school_portal.dto.StudentDTO;
+import com.sadiqov.cocusofttasks.school_portal.entity.Classroom;
+import com.sadiqov.cocusofttasks.school_portal.entity.Student;
+import com.sadiqov.cocusofttasks.school_portal.exception.ResourceNotFoundException;
+import com.sadiqov.cocusofttasks.school_portal.repository.ClassroomRepository;
+import com.sadiqov.cocusofttasks.school_portal.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,21 +1,18 @@
-package com.sadiqov.entity.school_portal.dto;
+package com.sadiqov.cocusofttasks.school_portal.dto;
 
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
-
 import javax.validation.constraints.Email;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Getter
 @Setter
 @Data
-public class StudentDTO {
+public class TeacherDTO {
     @NotBlank(message = "Name is required")
     String name;
 
@@ -23,9 +20,6 @@ public class StudentDTO {
     @Email(message = "Email should be valid")
     String email;
 
-    @Min(value = 1, message = "Age must be greater than 0")
-    int age;
-
-    @NotNull(message = "Classroom ID is required")
-    Long classroomId;
+    @NotBlank(message = "Specialization is required")
+    String specialization;
 }

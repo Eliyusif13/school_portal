@@ -1,7 +1,7 @@
-package com.sadiqov.entity.school_portal.repository;
+package com.sadiqov.cocusofttasks.school_portal.repository;
 
 
-import com.sadiqov.entity.school_portal.entity.Teacher;
+import com.sadiqov.cocusofttasks.school_portal.entity.Teacher;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
