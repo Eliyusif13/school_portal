@@ -13,7 +13,6 @@ import java.util.List;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@Data
 @Entity
 @Table(name = "classrooms")
 

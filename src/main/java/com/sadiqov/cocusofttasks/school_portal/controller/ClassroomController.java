@@ -19,7 +19,7 @@ public class ClassroomController {
         return ResponseEntity.ok(classroomService.createClassroom(classroomDTO));
     }
 
-    @GetMapping
+    @GetMapping("/getClassroom")
     public ResponseEntity<List<Classroom>> getAllClassrooms() {
         return ResponseEntity.ok(classroomService.getAllClassrooms());
     }

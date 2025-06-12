@@ -11,7 +11,6 @@ import java.util.List;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@Data
 @Entity
 @Table(name = "teachers", uniqueConstraints = {
         @UniqueConstraint(columnNames = "email")
