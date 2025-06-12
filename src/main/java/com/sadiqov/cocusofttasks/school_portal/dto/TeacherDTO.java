@@ -11,7 +11,6 @@ import javax.validation.constraints.NotBlank;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Getter
 @Setter
-@Data
 public class TeacherDTO {
     @NotBlank(message = "Name is required")
     String name;

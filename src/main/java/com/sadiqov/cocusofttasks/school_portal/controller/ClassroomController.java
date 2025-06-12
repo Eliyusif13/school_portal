@@ -14,7 +14,7 @@ import java.util.List;
 public class ClassroomController {
     private final ClassroomService classroomService;
 
-    @PostMapping
+    @PostMapping("registerClassRoom")
     public ResponseEntity<Classroom> createClassroom(@RequestBody ClassroomDTO classroomDTO) {
         return ResponseEntity.ok(classroomService.createClassroom(classroomDTO));
     }

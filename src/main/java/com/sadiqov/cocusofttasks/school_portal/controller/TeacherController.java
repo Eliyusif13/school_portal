@@ -25,12 +25,12 @@ public class TeacherController {
     private final TeacherRepository teacherRepository;
 
 
-    @PostMapping
+    @PostMapping("/registerTeacher")
     public ResponseEntity<Teacher> createTeacher(@RequestBody TeacherDTO teacherDTO) {
         return ResponseEntity.ok(teacherService.createTeacher(teacherDTO));
     }
 
-    @GetMapping
+    @GetMapping("getAllStudent")
     public ResponseEntity<List<Teacher>> getAllTeachers() {
         return ResponseEntity.ok(teacherService.getAllTeachers());
     }
